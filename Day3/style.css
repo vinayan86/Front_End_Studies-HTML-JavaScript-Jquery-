@@ -1,0 +1,121 @@
+.sidebar1{
+  background-color: black;
+color: white;
+text-align: center;
+/* max-height: 35em; */
+height: 48em;
+width: fit-content;
+}
+
+.side2
+{
+text-align: left;
+width:100%
+margin-left:2em;
+margin-top: 2em;
+}
+body{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+}
+.sidehead
+{
+padding: 1.5rem 2rem 1.5rem 4rem;
+transition: all 0.4s;
+text-align:left;
+color: white;
+
+}
+.sidehead:hover
+{
+background-color: green;
+}
+input[type="submit"]
+{
+
+margin-top:2em;
+
+
+border-radius:1em;
+}
+.cchange
+{
+background-color: rgb(0, 212, 138);
+}
+.cchanges
+{
+width:15%;
+background-color: rgb(0, 212, 138);
+}
+.headbut
+{
+margin-left:1em;
+padding: 1em;
+border-bottom: inset;
+}
+select cchange{
+margin-top: 2em;
+margin-left: 1em;
+float:right;
+
+}
+.subhead
+{
+margin-left: 2em;
+padding: 1em;
+    font-size: 1.5em;
+}
+.leftentry
+{
+float: right;
+margin-top: 2em;
+margin-right: 2em;
+}
+.add-on
+{
+margin-left: 2em;
+padding: 1em;
+font-size: 1.5em;
+width:10em;
+display: inline-flex;
+}
+.subheadc
+{
+width:22em;
+height:4em;
+margin-left: 1em;
+}
+.tabhead
+{
+width:100%;
+}
+.containers
+{
+margin-left: 3em;
+margin-right: 3em;
+
+
+}
+table{
+border:0.5px solid;
+width:fix-content;
+}
+th{
+background-color:#9E9E9E;
+}
+.cch
+{
+float:right;
+width:7em;
+
+margin-right: 4em;
+align-content: center;
+
+}
+.fs
+{
+background-color: rgb(0, 212, 138);
+}

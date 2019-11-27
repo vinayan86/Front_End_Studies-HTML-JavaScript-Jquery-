@@ -1,0 +1,124 @@
+
+body{
+  background-size: cover;
+  background: url("../img/bg.jpg");
+  color: #ffffff;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90%;
+    margin: 0px;
+
+
+
+}
+p{
+  padding-top: 1em;
+
+  font-size: 1.2rem;
+
+}
+.imgd img{
+  width: 100%;
+}
+.cont
+{
+  width:15%;
+  position:absolute;
+  top:28%;
+  right: 15%;
+  color: #807c72;
+}
+.imgd
+{
+
+    margin-top: 2em;
+
+
+
+}
+.img2
+{
+display: inline;
+    position: absolute;
+  top:22%;
+  left:24%;
+   max-width: 80%;
+}
+footer{
+  font-family: Helvetica, Arial, sans-serif;
+font-size:14px;
+text-align: right;
+color:#807c72;
+
+background-color: rgba(0, 0, 0, 0.2);
+padding: 1em;
+}
+
+.header{
+  background-size: cover;
+background: url("../img/bg-header.jpg");
+
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+}
+.header-triangle
+{
+  position: absolute;
+  left:34%;
+}
+.content
+{
+  color:#b5c1ad;
+
+  position: absolute;
+  top:15%;
+  left: 50%;
+}
+.container
+{
+  margin-left: auto;
+      margin-right: auto;
+      width: 980px;
+
+
+}
+/* .triangles
+{
+  position: absolute;
+  top: 17%;
+  left:28%;
+} */
+.navbar
+{
+  float: right;
+      font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+      padding: 45px 0px 0px 0px;
+      text-align: right;
+}
+.inner_tri{
+  position: absolute;
+      top: 22%;
+      left: 25%;
+}
+.logo
+{
+  position: absolute;
+  top: 2em;
+  float: left;
+  width: 380px;
+}
+a{
+  color: #b5c1ad;
+      text-decoration: none;
+    font-size: 12px;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+
+
+}

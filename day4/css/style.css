@@ -1,0 +1,153 @@
+.heading
+{
+  font-size: 36px;
+    font-weight: 800;
+    color: #F05136;
+    line-height: 50px;
+    position: absolute;
+    top: 40%;
+}
+p.info{
+  top:60%;
+    position: absolute;
+    font-size: 1.7rem;
+color: #000000;
+line-height: 21px;
+}
+.section3
+{
+
+padding: 3em;
+background-image: url("../img/bg2.png");
+background-repeat: no-repeat;
+background-size: cover;
+  background-color: #cccccc;
+
+
+}
+p{
+  font-size: 1.7rem;
+}
+.section4
+{
+      padding: 2em;
+  background-color:#fafafa;
+}
+hr{
+  border:2px solid #cccc;
+}
+
+dt{
+  color:#cccc;
+  padding-top: 1em;
+}
+footer
+{
+    padding: 1em;
+    line-height: 32px;
+}
+.section3-right
+{
+  width: 100%;
+    float: left;
+    padding: 1.4%;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #FFFFFF;
+}
+.projects
+{
+  margin-top: 2em;
+  width: 100%;
+
+    border: 1px solid #ccc;
+    text-align: center-left;
+    background: #FAFAFA;
+
+
+}
+a.alink{
+  color:red;
+}
+a{
+  color: black;
+}
+
+.announcements
+{
+  height:100%;
+    margin-top: 2em;
+        text-align: center-left;
+            padding: 1em 0em 2em 1em;
+      border: 1px;
+      border: 1px solid #ccc;
+      overflow: auto;
+    background: #FAFAFA;
+}
+.proimg
+{
+  float: left;
+  width:40%;
+}
+.contents{
+
+padding: 1em;
+}
+
+
+
+
+
+
+.more1
+{
+  padding: 3em;
+  background-image: url("../img/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: #cccccc;
+    color: #000000;
+
+    text-align: left;
+    line-height: 2rem;
+    font-weight: bold;
+
+}
+.headings
+{
+  font-style: italic;
+}
+body{
+
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.buttonapply
+{
+  background-color: #F05136;
+  border: 1px solid #F05136;
+padding: 1em;
+  color: white;
+  width:80%;
+
+}
+.apply{
+  margin-top: 4em;
+  margin-left: 8em;
+}
+.logo
+{
+  margin-left: 4em;
+
+}
+th {
+    text-align: center;
+    padding-left: 1em;
+}
+h1
+{
+  font-size: 4rem;
+}

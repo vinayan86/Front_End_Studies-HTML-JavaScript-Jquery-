@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style media="screen">
+      .sidebar1{
+        background-color: black;
+      color: white;
+      text-align: center;
+      /* max-height: 35em; */
+      height: 48em;
+      width: fit-content;
+      }
+
+.side2
+{
+  text-align: left;
+  width:100%
+  margin-left:2em;
+  margin-top: 2em;
+}
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    width: max-content;
+    height: max-content;
+}
+.sidehead
+{
+    padding: 1.5rem 2rem 1.5rem 4rem;
+    transition: all 0.4s;
+  text-align:left;
+  color: white;
+
+}
+.sidehead:hover
+{
+  background-color: green;
+}
+input[type="submit"]
+{
+
+  margin-top:2em;
+
+
+  border-radius:1em;
+}
+.cchange
+{
+background-color: rgb(0, 212, 138);
+}
+.cchanges
+{
+  width:15%;
+  background-color: rgb(0, 212, 138);
+}
+.headbut
+{
+margin-left: 4em;
+width:93%;
+    border-bottom: inset;
+}
+select cchange{
+  margin-top: 2em;
+  margin-left: 1em;
+  float:right;
+
+}
+.subhead
+{
+  margin-left: 2em;
+      padding: 1em;
+          font-size: 1.5em;
+}
+.leftentry
+{
+  float: right;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+.add-on
+{
+  margin-left: 2em;
+  padding: 1em;
+  font-size: 1.5em;
+  width:10em;
+  display: inline-flex;
+}
+.subheadc
+{
+    width:22em;
+    height:4em;
+    margin-left: 1em;
+}
+.tabhead
+{
+  width:97%;
+}
+.container
+{
+  margin-left: 3em;
+  margin-right: 3em;
+
+  width: 95%;
+
+}
+table{
+  border:0.5px solid;
+}
+th{
+  background-color:#9E9E9E;
+}
+.cch
+{
+  float:right;
+  width:7em;
+  margin-top: 2em;
+  margin-right: 6em;
+  align-content: center;
+
+}
+.fs
+{
+    background-color: rgb(0, 212, 138);
+}
+    </style>
+
+  </head>
+  <body>
+    <div class="row">
+
+    <div class="col-md-2">
+
+      <div class="sidebar1">
+        <img src="hhead.png" alt="">
+<p align="center";><b>DDU-GKY</b></p>
+<div class="side2">
+
+<a href="#"><div class="sidehead">
+  <span class="glyphicon glyphicon-cd" > Announcement</span>
+</div></a>
+<a href="#"><div class="sidehead">
+    <span class="glyphicon glyphicon-user" > Users</span>
+</div></a>
+<a href="#"><div class="sidehead">
+  <span class="glyphicon glyphicon-book" > Training</span>
+</div></a>
+<a href="#"><div class="sidehead">
+  <span class="glyphicon glyphicon-education" > Assesment</span>
+</div></a>
+<a href="#"><div class="sidehead">
+    <span class="glyphicon glyphicon-lock" > Jobs Board</span>
+</div></a>
+<a href="#"><div class="sidehead">
+  <span class="glyphicon glyphicon-calendar" > Calender</span>
+</div></a>
+<a href="#"><div class="sidehead">
+  <span class="glyphicon glyphicon-cd" > Setting</span>
+</div></a>
+
+
+
+
+
+</div>
+
+      </div>
+
+    </div>
+    <div class="col-sm-10">
+      <div class="headbut">
+        <input type="submit" class="btn btn-success cchange " name="" value="Students">
+        <input type="submit" class="btn btn-default" name="" value="Admins">
+      <!-- </div> -->
+      <!-- <div class="usebut"> -->
+      <div class="dropdown cch">
+                          <button class="btn btn-success dropdown-toggle fs" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Export Users</span>
+                         <span class="caret"></span></button>
+                         <ul class="dropdown-menu">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown cch">
+                                        <button class="btn btn-success dropdown-toggle fs" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Add Users</span>
+                                       <span class="caret"></span></button>
+                                       <ul class="dropdown-menu">
+                                          <li><a href="#">HTML</a></li>
+                                          <li><a href="#">CSS</a></li>
+                                          <li><a href="#">JavaScript</a></li>
+                                      </ul>
+                                  </div>
+
+      </div>
+      <div class="subhead">
+        <p><b>Quick Actions</b></p>
+<button type="button" class="btn btn-default subheadc" name="button"><span class="glyphicon glyphicon-user" > Student Groups</span></button>
+<button type="button" class="btn btn-default subheadc" name="button"><span class="glyphicon glyphicon-user" > Document Verification</span></button>
+<button type="button" class="btn btn-default subheadc" name="button"><span class="glyphicon glyphicon-user" > Atttributes</span></button>
+      </div>
+      <div class="tabhead">
+             <div class="input-group add-on">
+             <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+             <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+
+
+      </div>
+  </div>
+  <div class="leftentry">
+    <p>show <select class="" name="">
+<option value="">10</option>
+    </select>Entries</p>
+  </div>
+
+  <div class="container">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                              <th><input type="checkbox"></th>
+                            <th>Student Name</th>
+                            <th>Student ID</th>
+                            <th>batch</th>
+                            <th>Department</th>
+                            <th>Degree</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                              <td><input type="checkbox"></td>
+                            <td> Shinu Thomas <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+ </td>
+                           <td> PGK236</td>
+                           <td> 2</td>
+                           <td> Electronics and Communication</td>
+                           <td> B.Tech</td>
+                          </tr>
+                          <tr>
+                              <td><input type="checkbox"></td>
+                           <td> ADITHYA S <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> 3</td>
+                           <td> 3</td>
+                           <td> Computer Science Engineering(CSE)</td>
+                           <td> B.Tech</td>
+                         </tr>
+                         <tr>
+                             <td><input type="checkbox"></td>
+                           <td>AMEENA AR <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> PGK310</td>
+                           <td> 2019</td>
+                           <td> Computer Science Engineering(CSE)</td>
+                           <td> B.Tech</td>
+                         </tr>
+                         <tr>
+                             <td><input type="checkbox"></td>
+                           <td>ANN DONA JAMES <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> PGK302</td>
+                           <td> 2014-2019</td>
+                           <td> Computer Science Engineering(CSE)</td>
+                           <td> MCA</td>
+                         </tr>
+                         <tr>
+                             <td><input type="checkbox"></td>
+                           <td>ANNA JOY <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> PGK301</td>
+                           <td> 2019</td>
+                           <td> Computer Science Engineering(CSE)</td>
+                           <td> B.Tech</td>
+                         </tr>
+                         <tr>
+                             <td><input type="checkbox"></td>
+                           <td>ARUN SUNNY <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> 7777</td>
+                           <td> 2019</td>
+                           <td> Computer Science Engineering(CSE)</td>
+                           <td> B.Tech</td>
+                         </tr>
+                         <tr>
+                             <td><input type="checkbox"></td>
+                           <td>ASWATHY K.K <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> 1</td>
+                           <td> 2018</td>
+                           <td> Computer Science Engineering(CSE)</td>
+                           <td> B.Tech</td>
+                         </tr>
+                         <tr>
+                             <td><input type="checkbox"></td>
+                           <td>Abi Shajee <span class="glyphicon glyphicon-chevron-right"style="float: right;color: rgb(42, 170, 82);"></span>
+</td>
+                           <td> 12</td>
+                           <td> 2019</td>
+                           <td> Others(Others)</td>
+                           <td> Others</td>
+                         </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+
+
+    </div>
+
+  </div>
+  </body>
+</html>

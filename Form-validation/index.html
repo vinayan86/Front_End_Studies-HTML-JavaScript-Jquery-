@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+
+  <html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+   <script src="work.js">  </script> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+
+   
+
+       <div id="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2" >
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="box" style="background-color: #9e9e9e33;">
+              <h1 style="color: white;" >Register</h1>
+
+              <form  id="register" action=""  method="post">
+                <div class="form-group" > 
+                <input type="text" name="username" id="name" onkeyup="nameval(this.value)" class="form-control" placeholder="User Name">
+    
+  <span  id="nameval" ></span>
+  
+               <input type="email" name="email" id="emails" onchange="emailval(this.value)" class="form-control" placeholder="Email">
+               <span  id="eval"></span>
+                  <input type="password" name="pass" id="pw" class="form-control" onkeyup="passval(this.value)"  placeholder="Password">
+<p id="spass"><em>Password is strong</em></p>
+                  <input type="password" name="cpass" id="cpw" class="form-control" onkeyup="cpassval(this.value)" placeholder="Confirm Password">
+                      <div class="form-row" > 
+                        <div class="col">
+                        <label class="form-control" style="background-color: #9e9e9e33; color: white;" >Date Of Birth</label>  
+                        </div>
+                        <div class="col">
+                   <input type="date" name="date" style="width: 100%;" id="date"  class="form-control" onblur="dateval(this.value)" >
+</div>
+                 </div>
+                    <p id="dob"><input type="checkbox" name="">Continue your age and proceed</p>
+                 <textarea class="form-control" maxlength="140" id="texta" onkeyup="counters(this.value)" placeholder="Write your own views"></textarea>
+<p id="count">140</p>
+                  <br>
+                  <button type="submit" id="add"  class="btn btn-success" name="button">Sign Up</button>
+                </div>
+              
+              </form>
+            </div> 
+            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2" >
+            </div>
+
+    
+
+      </div>
+    </div> 
+    
+
+
+  </div>
+
+  <script src="work.js">  </script>
+</body>
+</html>

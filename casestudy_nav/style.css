@@ -1,0 +1,46 @@
+
+.form-control
+{
+
+margin-top: 2em;
+width:100%;
+
+}
+.errorMessage
+{
+  color: red !important;
+
+}
+#uname
+{
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+.succcessMessage{
+  margin-top: 5px;
+  color: green;
+
+}
+.box{
+
+  top: 30%;
+  margin-top: 30%;
+  background-color: white;
+  z-index: -1;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2em;
+  color: white;
+}
+body{
+  background: url(./img/bg.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+        color: white;
+}
+.contents{
+  position: absolute;
+    top: 265px;
+}

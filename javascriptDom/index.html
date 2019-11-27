@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="check.js">  </script>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+<div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+    </div>
+  <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+<div class="box">
+  <form class="" action="list.html" method="post">
+      <p><b><h2>Sign In</h2></b></p>
+      <div class="" id="uname">
+
+      </div>
+    <input type="text" align="center" onkeyup="userName()"" id="username" class="form-control" required name="" value=""  placeholder="User Name">
+    <div id="Message" class="errorMessage">
+<p>User name must contain 5 letters....</p>
+    </div>
+
+    <input type="password" class="form-control" required  name="" value="" placeholder="password">
+    <input type="submit" onclick="changeStatus()" class="form-control btn btn-success" name="" value="Sign in">
+
+  </form>
+  <div class="" id="succcessMessage">
+
+  </div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+</div>
+
+  </div>
+
+</div>
+
+      </div>
+
+
+
+  </body>
+  <script type="text/javascript">
+    var b=document.getElementById('username');
+    <!-- b.onblur=checkUsername; -->
+    b.addEventListener('blur',checkUsername);
+    window.addEventListener('load',setup);
+
+
+
+  </script>
+</html>

@@ -1,0 +1,77 @@
+
+.form-control
+{
+
+margin-top: 2em;
+width:100%;
+
+}
+.errorMessage
+{
+  color: red !important;
+
+}
+#uname
+{
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+.succcessMessage{
+  margin-top: 5px;
+  color: green;
+
+}
+h2{
+
+  margin-left: 29%;;
+}
+.box{
+
+
+  margin-top: 20%;
+  background-color: white;
+  z-index: -1;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  border-radius: 4px;
+  padding: 7em;
+  min-height: 40%;
+
+  color: black;
+
+}
+.forms
+{
+  height: 20%;
+}
+.form-control
+{
+text-align:center;
+cursor:pointer;
+border:none;
+padding: 2em;
+  font-size: 2rem;
+}
+p{
+  text-align: center;
+  cursor: pointer;
+
+}
+/* .form-controls
+{
+  text-align:center;
+  width:100%;
+  border:none;
+} */
+body{
+  background: url(./img/bg.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 3rem;
+
+}
+.contents{
+  position: absolute;
+    top: 265px;
+}
